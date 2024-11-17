@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import video from "./assets/video-fondo.mp4";
-import useProject from "./hooks/UseProvider";
+import useProject from "./hooks/UseProject";
 import { throttle } from "lodash";
 import "./index.css";
 import NavBar from "./components/NavBar/NavBar";
